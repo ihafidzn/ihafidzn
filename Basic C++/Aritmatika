@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int a = 12;
+	int b = 6;
+	int hasil;
+	
+	//operatornya ada +,-,*,/,%
+	//1. penjumlahan
+	hasil = a + b;
+	cout << a << " + " << b << " = " << hasil << endl;
+
+	//2. pengurangan
+	hasil = a - b;
+	cout << a << " - " << b << " = " << hasil << endl;
+
+	//3. perkalian 
+	hasil = a * b;
+	cout << a << " * " << b << " = " << hasil << endl;
+
+	//4. pembagian 
+	hasil = a / b;
+	cout << a << " / " << b << " = " << hasil << endl;
+
+	//5. modulus
+	hasil = a % b;
+	cout << a << " % " << b << " = " << hasil << endl;
+
+
+	cin.get();
+	return 0;
+
+}
